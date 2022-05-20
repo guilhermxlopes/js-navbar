@@ -5,6 +5,10 @@
   font-family: "Lato", sans-serif;
 }
 
+html {
+  margin-inline: 2rem;
+}
+
 nav {
   display: flex;
   padding: 2rem;
