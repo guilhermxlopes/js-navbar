@@ -57,7 +57,7 @@ nav
         background-color: #2e51b0
         padding-block: 5rem
         position: absolute
-        right: 2rem
+        right: 0
         top: 9vh
         height: 92vh
         display: flex
@@ -65,8 +65,16 @@ nav
         align-items: center
         width: 55%
         transform: translateX(100%)
+        transform: transform 0.5s ease-in
 
         li 
             opacity: 0
+    
+    .burguer 
+        display: block
+        cursor: pointer
+    
+    .nav-active 
+        transform: translateX(0%)
         
 
