@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+  color: #d6d6d6;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 8vh;
+  background-color: #2e51b0;
+}
+
+.logo {
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+  font-size: 1rem;
+}
+
+.nav-links {
+  display: flex;
+}
+
+/*# sourceMappingURL=style.css.map */
