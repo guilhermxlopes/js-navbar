@@ -46,6 +46,7 @@ nav
     height: 3px
     background: #d6d6d6
     margin: 5px
+    transition: all 0.3s ease-in-out
     
 @media screen and (max-width: 768px) 
     body 
@@ -88,8 +89,8 @@ nav
         transform: translateX(0%)
 
     .toggle .line1 
-        transform: rotate(-45deg translate(-5px, 6px))
+        transform: rotate(-45deg) translate(-5px, 6px)
     .toggle .line2
         opacity: 0
     .toggle .line3 
-        transform: rotate(45deg translate(-5px, 6px))
+        transform: rotate(45deg) translate(-5px, -6px)
