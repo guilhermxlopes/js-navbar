@@ -4,8 +4,6 @@
     box-sizing: border-box
     font-family: 'Lato', sans-serif
 
-html 
-    margin-inline: 2rem
 
 //desktop layout
 
@@ -65,7 +63,7 @@ nav
         align-items: center
         width: 55%
         transform: translateX(100%)
-        transform: transform 0.5s ease-in
+        transition: transform 0.5s ease-in
 
         li 
             opacity: 0
@@ -76,5 +74,11 @@ nav
     
     .nav-active 
         transform: translateX(0%)
-        right: 2rem
 
+    @keyframes navLinkFade 
+        from 
+            opacity: 0
+            transform: translateX(50px)
+        to
+            opacity: 1
+            transform: translateX(0px)
