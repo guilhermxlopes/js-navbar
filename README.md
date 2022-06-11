@@ -3,8 +3,8 @@ Repository to create and edit a navbar with JavaScript, practicing some methods 
 
 List of functions and coding practices:
 <ul>
-  <li>Arrow functions<li>
-  <li>DOM manipulation with animation<li>
-  <li>Responsive navbar design<li>
-  <li>Toggle classList method<li>
+  <li>Arrow functions</li>
+  <li>DOM manipulation with animation</li>
+  <li>Responsive navbar design</li>
+  <li>Toggle classList method</li>
   </ul>
