@@ -7,4 +7,4 @@ List of functions and coding practices:
   <li>DOM manipulation with animation<li>
   <li>Responsive navbar design<li>
   <li>Toggle classList method<li>
-  <ul>
+  </ul>
